@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Card } from '../components/Card';
+import { Navbar } from '../components/Navbar';
 
 
 const url="https://api-alexisrave-anime.herokuapp.com/Arus";
@@ -26,13 +27,14 @@ const App = () => {
     },[])
   return (
     <div className='appContainer'>
-        <div className='portada_pricnipal'>
+        <Navbar/>
+        <div className='portada_pricipal'>
             <div className='miniPortada'>
                 <img className='logo' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649290512/arus/gaminglanguage-268079_sxsso9.jpg' alt='Imagen no disponible'/>
                 <h1 className='tituloPortada' >21st Century Games</h1>
             </div>
             
-            <span>Seleciona tu juego preferido, demuestra ser el mejor , aprovecha nuestos precios de locura, los mejores del mercado</span>
+            <h3 className='descripcion_portada'>Seleciona tu juego preferido, demuestra ser el mejor , aprovecha nuestos precios de locura, los mejores del mercado</h3>
         </div>
         <div className='pintarCard'>
             {

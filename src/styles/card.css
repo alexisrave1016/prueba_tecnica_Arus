@@ -9,7 +9,7 @@
 .card_productos{
     width: 200px;
     height: 310px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.475);
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;

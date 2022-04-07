@@ -1,22 +1,30 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .appContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .pintarCard{
-    background-color: #f7f7f5;
+    background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1649303375/arus/41769330aba48177c6e1ff29be8e2df3_p5tmua.jpg);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+   
     
 }
 .logo{
     width: 150px;
 }
+.portada_pricipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .tituloPortada{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
     color: rgb(103, 255, 20);
 }
@@ -25,4 +33,8 @@
     background-color: black;
     display: flex;
     justify-content: center;
+}
+.descripcion_portada{
+    color: red;
+    font-size: 25px;
 }

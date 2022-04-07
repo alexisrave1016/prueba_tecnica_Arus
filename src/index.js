@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './containers/App';
 import './styles/card.css'
 import './styles/app.css'
+import './styles/navBar.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+
 
 
 

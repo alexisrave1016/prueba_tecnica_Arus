@@ -1,0 +1,22 @@
+.imagen_carrucel{
+    height: 400px;
+    width: 100%
+    
+}
+.carruel_prueba{
+    width: 100%;
+}
+.carousel-item{
+    width: 100%;
+}
+.carousel-inner{
+    width: 100%;
+}
+.carousel{
+    width: 100%;
+   
+}
+.raya{
+    background-color: brown;
+    color: aqua;
+}
