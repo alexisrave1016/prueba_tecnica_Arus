@@ -3,7 +3,20 @@ import React from 'react'
 export const Navbar = () => {
   return (
     <div className='navBar_container'>
-        <div>
+        <div className='navBar'>
+            <div className='logo_navBar'>
+                <img className='logo_principal' alt='' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305878/arus/c79fccdf775aeb035dce96889dea0d44-ilustraci-n-de-juego-de-controlador-cl-sico_ayhuwq.png'/>
+                <h1 className='titulo_principal'>21st Century Games</h1>
+            </div>
+            <div className='registro'>
+                <img className='logotipos_navBar' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305579/arus/b465abad5d46646422a42343787f493b_rliin5.png' alt=''/>
+            <span className='titulo_principal'>Iniciar Sesion/ Registo</span>
+            </div>
+            <div className='carrito'>
+                <img className='logotipos_navBar' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305781/arus/Ilustra_C3_A7_C3_A3o-Carrinho-de-Compras-PNG-1280x720_ozn3pk.png' alt=''/>
+            </div>
+           
+           
 
         </div>
 
@@ -11,10 +24,10 @@ export const Navbar = () => {
             <div className="carruel_prueba w-75 d-flex justify-content-center sm w-100">
                 <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active raya" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" className='raya'></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" className='raya'></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4" className='raya'></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active " aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active"  data-bs-interval="10000">

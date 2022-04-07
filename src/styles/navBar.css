@@ -16,7 +16,23 @@
     width: 100%;
    
 }
-.raya{
-    background-color: brown;
-    color: aqua;
+.navBar{
+    background: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logotipos_navBar{
+    height: 40px;
+   
+}
+.logo_navBar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_principal{
+    height: 70px;
+}
+.titulo_principal{
+    color: rgb(12, 211, 246);
 }
