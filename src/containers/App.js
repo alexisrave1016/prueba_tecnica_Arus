@@ -27,7 +27,11 @@ const App = () => {
   return (
     <div className='appContainer'>
         <div className='portada_pricnipal'>
-            <h1>21st Century Games</h1>
+            <div className='miniPortada'>
+                <img className='logo' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649290512/arus/gaminglanguage-268079_sxsso9.jpg' alt='Imagen no disponible'/>
+                <h1 className='tituloPortada' >21st Century Games</h1>
+            </div>
+            
             <span>Seleciona tu juego preferido, demuestra ser el mejor , aprovecha nuestos precios de locura, los mejores del mercado</span>
         </div>
         <div className='pintarCard'>

@@ -14,8 +14,8 @@ export const Card = (props) => {
                 />
             </div>
             <div className="contenido_productos">
-                <span >$ {precio}</span>
-                <span >{producto}</span>
+                <span className='descripcion precio' >$ {precio}</span>
+                <span className='descripcion' >{producto}</span>
                 
             </div>
         </div>

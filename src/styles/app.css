@@ -1,0 +1,28 @@
+.appContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pintarCard{
+    background-color: #f7f7f5;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.logo{
+    width: 150px;
+}
+
+.tituloPortada{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: rgb(103, 255, 20);
+}
+.miniPortada{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
