@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
   return (
@@ -8,10 +9,11 @@ export const Navbar = () => {
                 <img className='logo_principal' alt='' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305878/arus/c79fccdf775aeb035dce96889dea0d44-ilustraci-n-de-juego-de-controlador-cl-sico_ayhuwq.png'/>
                 <h1 className='titulo_principal'>21st Century Games</h1>
             </div>
-            <div className='registro'>
-                <img className='logotipos_navBar' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305579/arus/b465abad5d46646422a42343787f493b_rliin5.png' alt=''/>
-            <span className='titulo_principal inisiarSesion'>Iniciar Sesion/ Registo</span>
-            </div>
+            <Link to="/login"><div className='registro'>
+                    <img className='logotipos_navBar' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305579/arus/b465abad5d46646422a42343787f493b_rliin5.png' alt=''/>
+                    <span className='titulo_principal inisiarSesion'>Iniciar Sesion/ Registo</span>
+                </div>
+            </Link>
             <div className='carrito'>
                 <img className='logotipos_navBar logo_carrito' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305781/arus/Ilustra_C3_A7_C3_A3o-Carrinho-de-Compras-PNG-1280x720_ozn3pk.png' alt=''/>
             </div>

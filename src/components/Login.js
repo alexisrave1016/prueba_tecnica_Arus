@@ -1,6 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useForm } from '../hooks/useForm'
-import { LinkRuta } from './Disenos'
 import { useDispatch } from 'react-redux'
 import { loginEmailPassword } from '../actions/actionLogin'
 import { loginGoogle, loginFacebook } from '../actions/actionLogin'
@@ -33,7 +33,7 @@ const Login = () => {
         <form>
             <div className="container-login">
                 <div className="login_logo">
-                   <LinkRuta to="/portada"><img src="Tiendita.png" alt="" srcset="" /></LinkRuta> 
+                   <Link to="/"><img className='logo_login_secundario' src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305878/arus/c79fccdf775aeb035dce96889dea0d44-ilustraci-n-de-juego-de-controlador-cl-sico_ayhuwq.png" alt="" srcset="" /></Link> 
                 </div>
                <div className="login">
                     <div className="login_container">
@@ -65,7 +65,7 @@ const Login = () => {
         
                         <hr className="linea"/> <span className="title_nuevo_amazon">¿Eres nuevo en 21st Century Game?</span>
         
-                        <LinkRuta to="/registro"><button className="login_registro">Crea tu cuenta de 21st Century Game</button></LinkRuta>
+                        <Link to="/registro"><button className="login_registro">Crea tu cuenta de 21st Century Game</button></Link>
                 </div>
             </div>    
        

@@ -1,9 +1,7 @@
 import { createStore, combineReducers, compose,applyMiddleware} from "redux";
 import {loginReducers} from '../reducers/loginReducers'
-import { registerReducers } from "../reducers/registerReducers";
 import thunk from "redux-thunk";
-import { productosReducer } from "../reducers/productosReducer";
-import { carritoReducer } from "../reducers/carritoReducer";
+import { registerReducers } from "../reducers/registerReducers";
 
 
 // esto combila los milwer
@@ -15,8 +13,7 @@ window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
 const reducers= combineReducers({
     login: loginReducers,
     register: registerReducers,
-    producto: productosReducer,
-    carrito: carritoReducer
+
   
 
 })
