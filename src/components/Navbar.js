@@ -10,10 +10,10 @@ export const Navbar = () => {
             </div>
             <div className='registro'>
                 <img className='logotipos_navBar' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305579/arus/b465abad5d46646422a42343787f493b_rliin5.png' alt=''/>
-            <span className='titulo_principal'>Iniciar Sesion/ Registo</span>
+            <span className='titulo_principal inisiarSesion'>Iniciar Sesion/ Registo</span>
             </div>
             <div className='carrito'>
-                <img className='logotipos_navBar' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305781/arus/Ilustra_C3_A7_C3_A3o-Carrinho-de-Compras-PNG-1280x720_ozn3pk.png' alt=''/>
+                <img className='logotipos_navBar logo_carrito' src='https://res.cloudinary.com/dd01p9lb9/image/upload/v1649305781/arus/Ilustra_C3_A7_C3_A3o-Carrinho-de-Compras-PNG-1280x720_ozn3pk.png' alt=''/>
             </div>
            
            

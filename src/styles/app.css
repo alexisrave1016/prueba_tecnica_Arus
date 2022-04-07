@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1649302920/arus/images_sln8yd.jpg);
 }
 
 .tituloPortada{
@@ -33,8 +34,13 @@
     background-color: black;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .descripcion_portada{
-    color: red;
+    width: 100%;
+   text-align: center;
+    color: white;
     font-size: 25px;
+    
+   
 }

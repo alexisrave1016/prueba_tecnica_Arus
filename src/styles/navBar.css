@@ -17,22 +17,33 @@
    
 }
 .navBar{
-    background: #000;
+    background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1649302920/arus/images_sln8yd.jpg);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .logotipos_navBar{
-    height: 40px;
+    height: 60px;
    
 }
 .logo_navBar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo_principal{
-    height: 70px;
+    height: 60px;
+    border: solid 2px white;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 8px 15px 8px 0px;
 }
 .titulo_principal{
     color: rgb(12, 211, 246);
+}
+.inisiarSesion{
+    font-size: 20px;
+}
+.logo_carrito{
+    height: 40px;
 }
